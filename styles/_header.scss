@@ -1,0 +1,23 @@
+.nav {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 70px;
+
+    &__list {
+        margin-left: 20px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+        &__li {
+            list-style: none;
+            margin-right: 20px;
+            & a {
+                text-decoration: none;
+                color: inherit;
+            }
+    }  
+}

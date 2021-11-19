@@ -1,0 +1,16 @@
+.awards {
+    table-layout: fixed;
+    width: 1400px;
+    margin-bottom: 70px;
+
+    tr {
+        height: 100px;
+        & td:first-of-type {
+            font-size: 22px;
+            font-weight: 700px;
+        }
+    }
+    &__third-column {
+        width: 180px;
+    }
+}

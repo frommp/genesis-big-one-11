@@ -1,0 +1,20 @@
+.project-grid-container {
+    display: grid; 
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    margin-bottom: 70px;
+    max-width: 1110px;
+    width: 100%;
+    grid-gap: 30px;
+    margin-bottom: 50px;
+
+    &__first {
+        grid-column: 1/2;
+    }
+    &__second {
+        grid-column: 2/3;
+    }
+    &__third {
+        grid-column: 3/4;
+    }
+}

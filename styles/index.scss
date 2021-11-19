@@ -1,0 +1,15 @@
+@use 'fonts';
+
+@import '_header';
+@import '_main';
+@import '_footer';
+
+body {
+    font-family: fonts.$main-font;
+    max-width: 1400px;
+	width:100%;
+    padding: 50px;
+	display: flex;
+    justify-content: center;
+	flex-direction: column;
+}

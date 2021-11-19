@@ -1,0 +1,53 @@
+.contact-us {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    &__text {
+        width: 40%;
+        &__headline {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 55px;
+            width: 30
+        }
+        &__body {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+        } 
+    }
+    &__form {
+        width: 60%;
+        width: 475px;
+        display: flex;
+        flex-direction: column;
+        & input {
+            border: none;
+        }
+        & hr {
+            border: 0.01px solid grey;
+            width: 100%;
+        }
+        & button {
+            width: 125px;
+            height: 50px;
+            background-color: #4A4FF2;
+            margin-top: 50px;
+            border: none;
+            color: white;
+        }
+    }
+}
+
+.map-image {
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+    margin-bottom: 70px;
+}

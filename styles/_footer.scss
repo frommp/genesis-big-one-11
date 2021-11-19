@@ -1,0 +1,28 @@
+.nav {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    &__rightnav {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+    &__list {
+        margin-left: 20px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+        &__li {
+            list-style: none;
+            margin-right: 20px;
+    }  
+    &__social-media {
+        display: flex;
+        align-self: center;
+        margin-left: 50px;
+    }
+}

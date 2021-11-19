@@ -1,0 +1,59 @@
+.main-grid-container {
+    display: grid; 
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    margin-bottom: 70px;
+    height: 1960px;
+    max-width: 1110px;
+    width: 100%;
+    grid-gap: 15px;
+    
+    &__first {
+        grid-row: 1/8;
+        grid-column: 1/4;
+    }
+    &__second {
+        grid-row: 8/16;
+        grid-column: 1/4;
+    }
+    &__third {
+        grid-row: 16/24;
+        grid-column: 1/4;
+    }
+    &__fourth {
+        grid-row: 24/33;
+        grid-column: 1/4;
+    }
+    &__fifth {
+        grid-row: 1/7;
+        grid-column: 4/7;
+    }
+    &__sixth {
+        grid-row: 7/14;
+        grid-column: 4/7;
+    }
+    &__seventh {
+        grid-row: 14/23;
+        grid-column: 4/7;
+    }
+    &__eighth {
+        grid-row: 23/33;
+        grid-column: 4/7;
+    }
+    &__ninth {
+        grid-row: 1/11;
+        grid-column: 7/10;
+    }
+    &__tenth {
+        grid-row: 11/18;
+        grid-column: 7/10;
+    }
+    &__eleventh {
+        grid-row: 18/27;
+        grid-column: 7/10;
+    }
+    &__twelveth {
+        grid-row: 27/33;
+        grid-column: 7/10;
+    }
+}

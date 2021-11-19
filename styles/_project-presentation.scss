@@ -1,0 +1,38 @@
+.project-presentation {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    &__text {
+        width: 55%;
+        &__headline {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 55px;
+            width: 30
+        }
+        &__body {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+        } 
+    }
+    &__table {
+        & table {
+            border-collapse: collapse;
+        }
+        & tr {
+            color: black;
+            border-bottom: 0.5px solid rgb(187, 183, 183);
+            & td:first-of-type {
+                opacity: 0.5;
+            line-height: 40px;
+            }
+        }
+    }
+}
